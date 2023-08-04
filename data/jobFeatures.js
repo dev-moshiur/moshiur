@@ -1,4 +1,12 @@
 export const items = [
+  {
+    id: 1,
+    icon: "/assets/img/webdev.svg",
+    title: "Web Development",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.",
+    bg: "bg-prink",
+  },
   // {
   //   id: 1,
   //   icon: "/assets/img/design.svg",
@@ -23,14 +31,7 @@ export const items = [
   //     "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.",
   //   bg: "bg-catkrill",
   // },
-  {
-    id: 4,
-    icon: "/assets/img/webdev.svg",
-    title: "Web Development",
-    description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.",
-    bg: "bg-prink",
-  },
+ 
 ];
 export const itemsTwo = [
   {
