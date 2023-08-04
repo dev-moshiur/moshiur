@@ -5,7 +5,7 @@ export const education = [
     session: "2018",
     cardTitle: "SSC in",
     cardSubtitleSecondary: "Khalshi High School",
-    locatopn: "Dinajpur, BD",
+    locatopn: "Dinajpur, Bangladesh",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const education = [
     session: "2020",
     cardTitle: "HSC in",
     cardSubtitleSecondary: "Rangpur Govt. College",
-    locatopn: "Rangpur,BD",
+    locatopn: "Rangpur, Bangladesh",
   },
   {
     id: 3,
