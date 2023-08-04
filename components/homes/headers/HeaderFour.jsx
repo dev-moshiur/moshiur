@@ -60,6 +60,7 @@ export default function HeaderFour() {
                     width={153}
                     height={32}
                     src="/assets/img/logo/dev-moshiur-logo.png"
+                    style={{height:'fit-content'}}
                     alt="logo"
                   />
                 </Link>
