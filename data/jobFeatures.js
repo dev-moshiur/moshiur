@@ -18,7 +18,7 @@ export const items = [
   {
     id: 2,
     icon: "/assets/img/app-development.svg",
-    title: "App Development",
+    title: "Mobile App Development",
     description:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.",
     bg: "bg-catkrill",
