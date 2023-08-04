@@ -4,9 +4,7 @@ export const items = [
     icon: "/assets/img/webdev.svg",
     title: "Web Development",
     description:
-      ` My expertise lies in building the frontend with React and Next.js, where I combine my skills in CSS, Sass, and Bootstrap to craft beautiful and responsive user interfaces.
-
-      On the backend, I rely on Node.js, Express.js, and MongoDB with Mongoose to develop scalable and efficient server-side solutions. I take pride in my ability to architect and implement robust APIs that power seamless interactions between the frontend and backend.`,
+      `I am skilled in building the frontend with React and Next.js, utilizing CSS, Sass, and Bootstrap to create responsive user interfaces. On the backend, I excel in Node.js, Express.js, and MongoDB with Mongoose to develop scalable server-side solutions`,
     bg: "bg-prink",
   },
   // {
@@ -22,9 +20,9 @@ export const items = [
     icon: "/assets/img/app-development.svg",
     title: "Mobile App Development",
     description:
-      `
+      `I am an experienced and skilled mobile app developer with a specialization in React Native. With react native i build high-quality cross-platform applications that run smoothly on both iOS and Android devices
 
-      I am a passionate and versatile mobile app developer with a strong focus on building exceptional experiences using React Native. My proficiency in JavaScript and React allows me to create cross-platform applications that run seamlessly on both iOS and Android devices.`,
+      `,
     bg: "bg-catkrill",
   },
   // {
