@@ -62,7 +62,7 @@ export default function Header() {
                   <Image
                     width={153}
                     height={32}
-                    src="/assets/img/logo/logo-2.png"
+                    src="/assets/img/logo/dev-moshiur-dev-moshiur-logo.png"
                     alt="logo"
                   />
                 </Link>
