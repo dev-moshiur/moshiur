@@ -15,7 +15,7 @@ export const portfolioData = [
     previewName: "educrat-next.vercel.app",
     desc: [
       (<>It is a themeforest based project . I have build it in <strong>nextjs 13.4</strong>  version.I used <strong>Bootstrap 5</strong>  and sass to{' '} 
-      make a perfect design. for slider , I have used <strong>react swiper</strong>  here. I have used <strong>context api</strong>  to store state globally{' '}
+      make a perfect design. for slider , I have used <strong>react swiper</strong>  here. For animation, I have used <strong>GSAP , AOS</strong> etc . I have used <strong>context api</strong>  to store state globally{' '}
       I have implemented all of nextje features . Such as <strong>dynamic routing ,metadata object , SSR , CSR , image optimization </strong> 
       etc.</>),
 
