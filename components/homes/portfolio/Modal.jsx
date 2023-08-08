@@ -72,7 +72,8 @@ export default function Modal({ modalContent, setModalContent }) {
             <div className="h1-modal-img">
               <Image
                 width={800}
-                height={800}
+                height={10000}
+                style={{height:'fit-content'}}
                
                 src={modalContent?.imgSrc}
                 alt="portfolio"
