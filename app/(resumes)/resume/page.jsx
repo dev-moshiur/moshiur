@@ -5,7 +5,7 @@ import PersonalInfoThree from "@/components/homes/personalInfo/PersonalInfoThree
 import ResumeThree from "@/components/homes/resume/ResumeThree";
 import React from "react";
 export const metadata = {
-  title: "Resume-3 || Bostami - Professional portfolio NextJS Template",
+  title: "Resume || Md Moshiur rahman's portfolio",
   description:
     "Discover Botami,the most impressive portfolio template for work showcase, blog , personal information , contact etc",
 };

@@ -6,7 +6,7 @@ import PersonalInfoThree from "@/components/homes/personalInfo/PersonalInfoThree
 
 import React from "react";
 export const metadata = {
-  title: "Contact-3 || Bostami - Professional portfolio NextJS Template",
+  title: "Contacts || Md Moshiur rahman's portfolio",
   description:
     "Discover Botami,the most impressive portfolio template for work showcase, blog , personal information , contact etc",
 };
