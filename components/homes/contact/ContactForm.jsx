@@ -12,39 +12,72 @@ export default function ContactForm() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_z5tlvwn",
-        "template_4nbexqj",
-        form.current,
-        "jKu3D70HB4pHchppU",
-      )
-      .then(
-        (result) => {
-          console.log(result);
-          toast.success("Message Sent successfully!", {
-            position: "top-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-          });
-          document.getElementById("myFormOne").reset();
-        },
-        (error) => {
-          toast.error("Ops Message not Sent!", {
-            position: "top-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-          });
-        },
-      );
+    fetch(`https://send-mail-to-moshiur.onrender.com/sendMail`,{
+      method: "post",
+      headers: { "Content-type": "application/json" },
+      body:JSON.stringify(form.current)
+     })
+     .then(res=>{
+
+      if (res.status == 200) {
+        toast.success("Message Sent successfully!", {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        });
+      
+        
+      } else {
+        toast.error("Ops Message not Sent!", {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        });
+  
+        
+      }
+     })
+    // emailjs
+    //   .sendForm(
+    //     "service_z5tlvwn",
+    //     "template_4nbexqj",
+    //     form.current,
+    //     "jKu3D70HB4pHchppU",
+    //   )
+    //   .then(
+    //     (result) => {
+    //       console.log(result);
+    //       toast.success("Message Sent successfully!", {
+    //         position: "top-right",
+    //         autoClose: 5000,
+    //         hideProgressBar: false,
+    //         closeOnClick: true,
+    //         pauseOnHover: true,
+    //         draggable: true,
+    //         progress: undefined,
+    //       });
+    //       document.getElementById("myFormOne").reset();
+    //     },
+    //     (error) => {
+    //       toast.error("Ops Message not Sent!", {
+    //         position: "top-right",
+    //         autoClose: 5000,
+    //         hideProgressBar: false,
+    //         closeOnClick: true,
+    //         pauseOnHover: true,
+    //         draggable: true,
+    //         progress: undefined,
+    //       });
+    //     },
+    //   );
   };
 
   return (
