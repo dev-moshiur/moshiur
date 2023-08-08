@@ -46,6 +46,17 @@ export default function ContactForm() {
         
       }
      })
+     .catch((err)=>{
+      toast.error("Ops Message not Sent!", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+     })
     // emailjs
     //   .sendForm(
     //     "service_z5tlvwn",
