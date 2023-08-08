@@ -123,6 +123,26 @@ Used Technologies : <strong> React.js ,CSS(SASS), Redux Toolkit, Expressjs ,Mong
       corporis omnis doloremque soluta inventore dolorum consequuntur.`,
     ],
   },
+  {
+    id: 5,
+    class: "isotop-item logo mockup",
+    bgClass: "bg-catkrill",
+    imgSrc: "/assets/img/work/clone.png",
+    subtitle: "A cloned landing page",
+    title: "UI Practice",
+    target: "#portfolio-1",
+    category: ["Practice",],
+    project: "website",
+    languages: ["Photoshop", "Figma"],
+    client: "Envato",
+    previewLink: "https://clone-beige.vercel.app/",
+    previewName: "clone-beige.vercel.app",
+    desc: [
+     (<>
+     I have convert a design to <strong>reactjs</strong>  code to practice UI design. I used <strong>SASS</strong> for style
+     </>)
+    ],
+  },
 
  
 ];
