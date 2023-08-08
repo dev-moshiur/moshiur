@@ -51,14 +51,14 @@ export default function Modal({ modalContent, setModalContent }) {
                 <div className="col-md-6">
                   <h3 className="portfolio-modal-table-text">
                   <i class="fa-brands fa-github"></i>
-                    Client side code : <a target="_blank" href={modalContent?.github1}>{modalContent?.github1}</a>
+                    Client side code : <a style={{textTransform:'lowercase'}} target="_blank" href={modalContent?.github1}>{modalContent?.github1}</a>
                   </h3>
                 </div>}
                 {modalContent?.github2  && 
                 <div className="col-md-6">
                   <h3 className="portfolio-modal-table-text">
                   <i class="fa-brands fa-github"></i>
-                    Server side code : <a target="_blank" href={modalContent?.github2}>{modalContent?.github2}</a>
+                    Server side code : <a style={{textTransform:'lowercase'}}  target="_blank" href={modalContent?.github2}>{modalContent?.github2}</a>
                   </h3>
                 </div>}
                 <div className="col-md-6">
