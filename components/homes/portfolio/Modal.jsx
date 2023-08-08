@@ -40,12 +40,13 @@ export default function Modal({ modalContent, setModalContent }) {
                     Project : <span>{modalContent?.project}</span>
                   </h3>
                 </div>
+                {modalContent?.client  && 
                 <div className="col-md-6">
                   <h3 className="portfolio-modal-table-text">
                     <i className="fa-regular fa-user "></i>
                     Client : <span>{modalContent?.client}</span>
                   </h3>
-                </div>
+                </div>}
                 <div className="col-md-6">
                   <h3 className="portfolio-modal-table-text">
                     <i className="fa-solid fa-code"></i>

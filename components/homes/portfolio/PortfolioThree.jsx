@@ -72,7 +72,7 @@ export default function PortfolioThree() {
                             <a className="img" href="#" data-bs-toggle="modal">
                               <Image
                                 width={310}
-                                style={{ width: "100%", height: "fit-content" }}
+                                style={{ width: "100%", height: "fit-content" ,transition:`${elm.transition ? elm.transition : '10s linear'}` }}
                                 height={310}
                                 src={elm.imgSrc}
                                 

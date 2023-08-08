@@ -27,6 +27,35 @@ export const portfolioData = [
     ],
   },
   {
+    id: 4,
+    class: "isotop-item mockup",
+    bgClass: "bg-prink",
+    imgSrc: "/assets/img/work/ksc.png",
+    subtitle: "A result publishing web app",
+    title: "KSC Result Publisher",
+    target: "#portfolio-1",
+    category: ["Practice"],
+    project: "website",
+    languages: ["Reactjs", "Redux Toolkit",'SASS'],
+    transition:'3s',
+
+    previewLink: "https://ksc-result-publisher.vercel.app/",
+    previewName: "ksc-result-publisher.vercel.app",
+    desc: [
+     (<>
+     I created this website including Home, FAQ's, Contact , Admin Page . The home page has Navbar, A real stick Footer .
+Users can search result,filter result and download PDF result sheets.Admin can publish result filling forms.
+Results are generated according to the  <strong>standard academic grading system of Bangladesh.</strong>  
+
+     </>),
+     (<>
+ 
+ 
+Used Technologies : <strong> React.js ,CSS(SASS), Redux Toolkit, Expressjs ,MongoDB(Mongoose)</strong>
+     </>),
+    ],
+  },
+  {
     id: 2,
     class: "isotop-item design mockup",
     bgClass: "bg-catkrill",
@@ -92,105 +121,8 @@ export const portfolioData = [
       corporis omnis doloremque soluta inventore dolorum consequuntur.`,
     ],
   },
-  {
-    id: 4,
-    class: "isotop-item mockup",
-    bgClass: "bg-prink",
-    imgSrc: "/assets/img/work/educrat-next.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Packaging Box",
-    target: "#portfolio-1",
-    category: ["Mockup"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
-    previewLink: "#",
-    previewName: "www.envato.com",
-    desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
 
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
-    ],
-  },
-  {
-    id: 5,
-    class: "isotop-item design logo",
-    bgClass: "bg-prink",
-    imgSrc: "/assets/img/work/educrat-next.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Modern Bag Design",
-    target: "#portfolio-1",
-    category: ["Logo", "Graphic Design"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
-    previewLink: "#",
-    previewName: "www.envato.com",
-    desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
-    ],
-  },
-  {
-    id: 6,
-    class: "isotop-item mockup design",
-    bgClass: "bg-catkrill",
-    imgSrc: "/assets/img/work/educrat-next.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Chul urina",
-    target: "#portfolio-1",
-    category: ["Mockup", "Graphic Design"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
-    previewLink: "#",
-    previewName: "www.envato.com",
-    desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
-    ],
-  },
+ 
 ];
 
 export const filterButtons = [
@@ -209,3 +141,10 @@ export const filterButtons = [
   },
  
 ];
+
+
+
+`I created this website including Home, FAQ's, Contact , Admin Page . The home page has Navbar, A real stick Footer .
+Users can search result,filter result and download PDF result sheets.Admin can publish result filling forms.
+Results are generated according to the standard academic grading system of Bangladesh. 
+Used Technologies :  HTML,CSS(SASS) ,React.js, Redux Toolkit,Expressjs ,MongoDB(Mongoose)`
