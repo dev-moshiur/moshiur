@@ -8,11 +8,11 @@ export const portfolioData = [
     title: "Educrat Next",
     target: "#portfolio-1",
     category: ["Logo"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
-    previewLink: "#",
-    previewName: "www.envato.com",
+    project: "Themeforest Based Project",
+    languages: ["Nextjs", "Bootstrap 4",'SASS'],
+    client: "IB-Themes",
+    previewLink: "https://educrat-next.vercel.app/",
+    previewName: "educrat-next.vercel.app",
     desc: [
       `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
       consequatur delectus porro sapiente molestias, magni quasi sed, enim
