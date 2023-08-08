@@ -73,12 +73,7 @@ export default function Modal({ modalContent, setModalContent }) {
               <Image
                 width={800}
                 height={800}
-                style={{
-                  width: "100%",
-                  height: "fit-content",
-                  maxHeight: "450px",
-                  objectFit: "cover",
-                }}
+               
                 src={modalContent?.imgSrc}
                 alt="portfolio"
               />
