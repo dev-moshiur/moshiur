@@ -27,12 +27,12 @@
           
             width: 100%; /* Make the image width 100% of the container's width */
             height: auto; /* Preserve the aspect ratio */
-            transition:5s; /* Set the animation properties (adjust the duration as needed) */
+            transition:10s; /* Set the animation properties (adjust the duration as needed) */
 
         }
         &:hover{
             &>*{
-                transform: translateY(calc(-100% + 200px));
+                transform: translateY(calc(-100% + 250px));
                 // top:calc(100% - 200px);
             }
         }
