@@ -50,8 +50,8 @@
       
       
         width: 100%; /* Make the image width 100% of the container's width */
-        height: auto; /* Preserve the aspect ratio */
-        transition:10s linear; /* Set the animation properties (adjust the duration as needed) */
+        height: fit-content; /* Preserve the aspect ratio */
+
 
     }
     // &:hover{
