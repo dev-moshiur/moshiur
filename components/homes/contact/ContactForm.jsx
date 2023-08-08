@@ -18,6 +18,7 @@ export default function ContactForm() {
       body:JSON.stringify(form.current)
      })
      .then(res=>{
+      document.getElementById("myFormOne").reset();
 
       if (res.status == 200) {
         toast.success("Message Sent successfully!", {
