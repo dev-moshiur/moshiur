@@ -14,22 +14,16 @@ export const portfolioData = [
     previewLink: "https://educrat-next.vercel.app/",
     previewName: "educrat-next.vercel.app",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
+      (<>It is a themeforest based project . I have build it in nextjs 13.4 version.I used Bootstrap 5 and sass to{' '} 
+      make a perfect design. for slider , I have used swiper react here. I have used context api to store state globally{' '}
+      I have implemented all of nextje features . Such as dynamic routing ,metadata object , SSR , CSR , image optimization 
+      etc.</>),
 
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      (<>
+      This is a LMS template. Here people can buy courses , events etc . a cart page and its functionality has been implemented{' '}
+      I have implemented course filtering in course list pages.
+
+      </>),
     ],
   },
   {
