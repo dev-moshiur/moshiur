@@ -38,6 +38,8 @@ export const portfolioData = [
     project: "website",
     languages: ["Reactjs", "Redux Toolkit",'SASS'],
     transition:'3s',
+    github1:'https://github.com/dev-moshiur/ksc-result-publisher',
+    github2:'https://github.com/dev-moshiur/ksc-result-publisher-api',
 
     previewLink: "https://ksc-result-publisher.vercel.app/",
     previewName: "ksc-result-publisher.vercel.app",
