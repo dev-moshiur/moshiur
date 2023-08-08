@@ -56,7 +56,7 @@ export default function Modal({ modalContent, setModalContent }) {
                   <h3 className="portfolio-modal-table-text">
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                     Preview :{" "}
-                    <a target="_blank" href={modalContent?.previewLink}>
+                    <a style={{textTransform:'lowercase'}} target="_blank" href={modalContent?.previewLink}>
                       {modalContent?.previewName}
                     </a>
                   </h3>
