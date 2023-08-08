@@ -15,6 +15,28 @@
     // grid-auto-rows: none !important;
     grid-gap: 0;
    align-content: start;
+   .fillter-item{
+    .img{
+        width: 100%;
+        height: 400px;
+        overflow-y: hidden;
+        position: relative;
+        &>*{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%; /* Make the image width 100% of the container's width */
+            height: auto; /* Preserve the aspect ratio */
+            transition: top 3s linear; /* Set the animation properties (adjust the duration as needed) */
+
+        }
+        &:hover{
+            &>*{
+                top:calc(100% - 400px);
+            }
+        }
+    }
+   }
 }
 .projectsGrid {
     display: grid !important;

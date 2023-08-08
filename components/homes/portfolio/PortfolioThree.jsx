@@ -50,17 +50,10 @@ export default function PortfolioThree() {
             </div>
 
             <div className="col-12">
-              <div id="fillter-item-active" className="fillter-item-wrap ">
+              <div id="fillter-item-active" className="fillter-item-wrap projectsGrid">
                 <AnimatePresence>
-                  <ResponsiveMasonry
-                    columnsCountBreakPoints={{
-                      350: 1,
-                      850: 2,
-                      1100: 3,
-                      1200: 2,
-                    }}
-                  >
-                    <Masonry>
+                 
+                   
                       {filteredItem.map((elm, i) => (
                         <motion.div
                           layout
@@ -82,6 +75,7 @@ export default function PortfolioThree() {
                                 style={{ width: "100%", height: "fit-content" }}
                                 height={310}
                                 src={elm.imgSrc}
+                                
                                 alt="portfolio"
                                 onClick={() => setModalContent(elm)}
                               />
@@ -104,8 +98,7 @@ export default function PortfolioThree() {
                           </div>
                         </motion.div>
                       ))}
-                    </Masonry>
-                  </ResponsiveMasonry>
+            
                 </AnimatePresence>
               </div>
             </div>
