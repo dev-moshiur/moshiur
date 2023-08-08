@@ -75,6 +75,7 @@ export default function PortfolioThree() {
                                 style={{ width: "100%", height: "fit-content" ,transition:`${elm.transition ? elm.transition : '10s linear'}` }}
                                 height={310}
                                 src={elm.imgSrc}
+                                className={elm.transition ? 'notran':''}
                                 
                                 alt="portfolio"
                                 onClick={() => setModalContent(elm)}
