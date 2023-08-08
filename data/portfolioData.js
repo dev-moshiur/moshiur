@@ -7,7 +7,7 @@ export const portfolioData = [
     subtitle: "Nextjs LMS Template",
     title: "Educrat Next",
     target: "#portfolio-1",
-    category: ["Logo"],
+    category: ["Client"],
     project: "Themeforest Based Project",
     languages: ["Nextjs", "Bootstrap 4",'SASS'],
     client: "IB-Themes",
@@ -34,7 +34,7 @@ export const portfolioData = [
     subtitle: "Travel Landing , UX/UI",
     title: "Aura Dione",
     target: "#portfolio-1",
-    category: ["Mockup", "Graphic Design"],
+    category: ["Client",],
     project: "website",
     languages: ["Photoshop", "Figma"],
     client: "Envato",
@@ -67,7 +67,7 @@ export const portfolioData = [
     subtitle: "Travel Landing , UX/UI",
     title: "T-Shirt Design",
     target: "#portfolio-1",
-    category: ["Mockup", "Logo"],
+    category: ["Client",],
     project: "website",
     languages: ["Photoshop", "Figma"],
     client: "Envato",
@@ -201,14 +201,11 @@ export const filterButtons = [
   },
   {
     id: 2,
-    text: "Mockup",
+    text: "Client",
   },
   {
     id: 3,
-    text: "Graphic Design",
+    text: "Practice",
   },
-  {
-    id: 4,
-    text: "Logo",
-  },
+ 
 ];
