@@ -100,8 +100,9 @@ Used Technologies : <strong> React.js ,CSS(SASS), Redux Toolkit, Expressjs ,Mong
     target: "#portfolio-1",
     category: ["Practice",],
     project: "website",
-    languages: ["Photoshop", "Figma"],
+    languages: ["Reactjs", "SASS"],
     client: "Envato",
+    github1:'https://github.com/dev-moshiur/clone',
     previewLink: "https://clone-beige.vercel.app/",
     previewName: "clone-beige.vercel.app",
     desc: [
