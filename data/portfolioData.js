@@ -27,6 +27,32 @@ export const portfolioData = [
     ],
   },
   {
+    id: 7,
+    class: "isotop-item logo",
+    bgClass: "bg-prink",
+    imgSrc: "/assets/img/work/hoomez-next.png",
+    subtitle: "Nextjs Real  State Template",
+    title: "Hoomez Next",
+    target: "#portfolio-1",
+    category: ["Client"],
+    project: "Themeforest Based Project",
+    languages: ["Nextjs", "Bootstrap 5",'SASS'],
+    client: "IB-Themes",
+    previewLink: "https://homez-next-roan.vercel.app/",
+    previewName: "homez-next-roan.vercel.app",
+    desc: [
+      (<>It is a themeforest based project . I have build it in <strong>nextjs 13.4</strong>  version.I used <strong>Bootstrap 5</strong>  and sass to{' '} 
+      make a perfect design. for slider , I have used <strong>react swiper</strong>  here. For animation, I have used <strong>GSAP , AOS</strong> etc . I have used <strong>context api</strong>  to store state globally{' '}
+      I have implemented all of nextje features . Such as <strong>dynamic routing ,metadata object , SSR , CSR , image optimization </strong> 
+      etc.</>),
+
+      (<>
+      This is a Real State template. Here people can buy or rent houses , office etc.
+
+      </>),
+    ],
+  },
+  {
     id: 4,
     class: "isotop-item mockup",
     bgClass: "bg-prink",
