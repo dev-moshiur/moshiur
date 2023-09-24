@@ -77,7 +77,7 @@ export default function ResumeThree() {
 
       <div className="section-wrapper bg-light-white-2 pt-70 pb-60 pl-60 pr-60">
         <div className="row">
-          <div className="col-xl-6 col-lg-7">
+          <div className="col-xl-12 col-lg-12">
             <div className="bostami-section-title-wrap mb-20">
               <h4 className="section-title">Working Skills</h4>
             </div>
@@ -105,7 +105,7 @@ export default function ResumeThree() {
             </div>
           </div>
 
-          <div className="col-xl-6 col-lg-5">
+          {/* <div className="col-xl-6 col-lg-5">
             <div className="bostami-section-title-wrap mb-20">
               <h4 className="section-title">Knowledges</h4>
             </div>
@@ -117,7 +117,7 @@ export default function ResumeThree() {
                 </span>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
