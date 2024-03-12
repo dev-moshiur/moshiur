@@ -172,7 +172,7 @@ export default function AboutTwo() {
 
       <div className="footer-copyright text-center pt-25 pb-25">
         <span>
-          © {new Date().getFullYear()} All Rights Reserved by ib-themes.
+          © {new Date().getFullYear()} All Rights Reserved by dev moshiur.
         </span>
       </div>
     </div>

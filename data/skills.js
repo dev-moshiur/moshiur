@@ -55,6 +55,18 @@ export const skillData = [
   },
   {
     id: 2,
+    title: "Vue 3",
+    progress: 80,
+    progressClass: "progress-bg-2",
+  },
+  {
+    id: 2,
+    title: "Nuxtjs",
+    progress: 80,
+    progressClass: "progress-bg-3",
+  },
+  {
+    id: 2,
     title: "Nodejs",
     progress: 55,
     progressClass: "progress-bg-2",
@@ -83,5 +95,4 @@ export const skillData = [
     progress: 85,
     progressClass: "progress-bg-2",
   },
-  
 ];

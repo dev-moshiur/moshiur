@@ -24,17 +24,15 @@ export default function PersonalInfoThree() {
           <span className="bostami-parsonal-info-bio mb-15">
             {profileInfo.title}
           </span>
-
           <ul className="bostami-parsonal-info-social-link mb-30">
             {socialMediaData.map((elm, i) => (
               <li key={i}>
-                <a style={{ color: elm.color }} href={elm.href}>
+                <a style={{ color: elm.color }} target="_blank" href={elm.href}>
                   <i className={elm.className}></i>
                 </a>
               </li>
             ))}
           </ul>
-
           <div className="bostami-parsonal-info-contact mb-30">
             {contactData.map((elm, i) => (
               <div key={i} className="bostami-parsonal-info-contact-item">
@@ -51,7 +49,6 @@ export default function PersonalInfoThree() {
               </div>
             ))}
           </div>
-
           <div className="bostami-parsonal-info-btn">
             <a className="btn-2" href="/cv.pdf" download>
               <span style={{ color: "#fff" }} className="icon">

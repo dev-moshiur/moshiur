@@ -60,7 +60,7 @@ export default function HeaderFour() {
                     width={153}
                     height={32}
                     src="/assets/img/logo/dev-moshiur-logo.png"
-                    style={{height:'fit-content'}}
+                    style={{ height: "fit-content" }}
                     alt="logo"
                   />
                 </Link>
@@ -71,9 +71,9 @@ export default function HeaderFour() {
               <div className="bostami-header-menu-btn text-right mb-0">
                 <div className="dark-btn mode-btn" onClick={handleDarkmode}>
                   {darkMode ? (
-                    <i class="sunicon fa-light fa-sun-bright"></i>
+                    <i className="sunicon fa-light fa-sun-bright"></i>
                   ) : (
-                    <i class="moonicon fa-solid fa-moon"></i>
+                    <i className="moonicon fa-solid fa-moon"></i>
                   )}
                 </div>
                 <div

@@ -8,9 +8,9 @@ import { menuItems } from "@/data/menu";
 export default function MenuTwo() {
   const pathname = usePathname();
   return (
-    <div class="col-xxl-1 d-xxl-block d-none">
-      <div class="bostami-main-menu-wrap">
-        <nav class="bastami-main-menu main_menu">
+    <div className="col-xxl-1 d-xxl-block d-none">
+      <div className="bostami-main-menu-wrap">
+        <nav className="bastami-main-menu main_menu">
           <ul>
             {menuItems.map((elm, i) => (
               <li

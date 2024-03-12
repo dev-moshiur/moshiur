@@ -1,5 +1,5 @@
 "use client";
-import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
+// import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 import { motion } from "framer-motion";
 import { AnimatePresence } from "framer-motion";
@@ -14,12 +14,13 @@ export default function PortfolioThree() {
   const [modalContent, setModalContent] = useState();
   useEffect(() => {
     if (activeTab == "All") {
-      setFilteredItem(portfolioData);
+      setFilteredItem([...portfolioData]);
     } else {
-      const filtered = portfolioData.filter((elm) =>
-        elm.category.includes(activeTab),
-      );
-      setFilteredItem(filtered);
+      const filtered = [
+        ...portfolioData.filter((elm) => elm.category.includes(activeTab)),
+      ];
+
+      setFilteredItem([...filtered]);
     }
   }, [activeTab]);
   return (
@@ -50,56 +51,63 @@ export default function PortfolioThree() {
             </div>
 
             <div className="col-12">
-              <div id="fillter-item-active" className="fillter-item-wrap projectsGrid">
+              <div
+                id="fillter-item-active"
+                className="fillter-item-wrap projectsGrid"
+              >
                 <AnimatePresence>
-                 
-                   
-                      {filteredItem.map((elm, i) => (
-                        <motion.div
-                          layout
-                          initial={{ opacity: 0, scale: 0 }}
-                          animate={{ opacity: 1, scale: 1 }}
-                          exit={{ opacity: 0, scale: 0.5 }}
-                          transition={{ duration: 0.3 }}
-                          key={elm.id}
-                          className={elm.class}
-                          style={{ width: "100%" }}
+                  {filteredItem.map((elm, i) => (
+                    <motion.div
+                      layout
+                      initial={{ opacity: 0, scale: 0 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      exit={{ opacity: 0, scale: 0.5 }}
+                      transition={{ duration: 0.3 }}
+                      key={i}
+                      className={elm.class}
+                      style={{ width: "100%" }}
+                    >
+                      <div
+                        style={{ width: "100%" }}
+                        className={`fillter-item ${
+                          elm.category.includes("Client")
+                            ? "bg-catkrill"
+                            : "bg-prink"
+                        }`}
+                      >
+                        <a className="img" href="#" data-bs-toggle="modal">
+                          <Image
+                            width={310}
+                            style={{
+                              width: "100%",
+                              height: "fit-content",
+                              transition: `${
+                                elm.transition ? elm.transition : "10s linear"
+                              }`,
+                            }}
+                            height={310}
+                            src={elm.imgSrc}
+                            className={elm.transition ? "notran" : ""}
+                            alt="portfolio"
+                            onClick={() => setModalContent(elm)}
+                          />
+                        </a>
+                        <span className="item-subtitle">{elm.subtitle}</span>
+                        <h6
+                          className="item-title"
+                          onClick={() => setModalContent(elm)}
                         >
-                          <div
-                            style={{ width: "100%" }}
-                            className={`fillter-item ${elm.bgClass}`}
+                          <a
+                            href="#"
+                            data-bs-toggle="modal"
+                            data-bs-target="#portfolio-1"
                           >
-                            <a className="img" href="#" data-bs-toggle="modal">
-                              <Image
-                                width={310}
-                                style={{ width: "100%", height: "fit-content" ,transition:`${elm.transition ? elm.transition : '10s linear'}` }}
-                                height={310}
-                                src={elm.imgSrc}
-                                className={elm.transition ? 'notran':''}
-                                
-                                alt="portfolio"
-                                onClick={() => setModalContent(elm)}
-                              />
-                            </a>
-                            <span className="item-subtitle">
-                              {elm.subtitle}
-                            </span>
-                            <h6
-                              className="item-title"
-                              onClick={() => setModalContent(elm)}
-                            >
-                              <a
-                                href="#"
-                                data-bs-toggle="modal"
-                                data-bs-target="#portfolio-1"
-                              >
-                                {elm.title}
-                              </a>
-                            </h6>
-                          </div>
-                        </motion.div>
-                      ))}
-            
+                            {elm.title}
+                          </a>
+                        </h6>
+                      </div>
+                    </motion.div>
+                  ))}
                 </AnimatePresence>
               </div>
             </div>
@@ -108,7 +116,7 @@ export default function PortfolioThree() {
 
         <div className="footer-copyright text-center bg-light-white-2 pt-25 pb-25">
           <span>
-            © {new Date().getFullYear()} All Rights Reserved by ib-themes.
+            © {new Date().getFullYear()} All Rights Reserved by dev moshiur.
           </span>
         </div>
       </div>

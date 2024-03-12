@@ -11,17 +11,15 @@ export default function ContactThree() {
 
       <div className="section-wrapper pr-60 pl-60 mb-60">
         <div className="contact-area bg-light-white-2">
-          <h5 className="contact-title">
-            I'm always open to discussing produuct
-          </h5>
-          <h5 className="contact-title-b">design work or partnerships.</h5>
+          <h5 className="contact-title">I am avilable for freelance work</h5>
+          <h5 className="contact-title-b">contact me</h5>
           <ContactForm />
         </div>
       </div>
 
       <div className="footer-copyright text-center bg-light-white-2 pt-25 pb-25">
         <span>
-          © {new Date().getFullYear()} All Rights Reserved by ib-themes.
+          © {new Date().getFullYear()} All Rights Reserved by dev moshiur.
         </span>
       </div>
     </div>

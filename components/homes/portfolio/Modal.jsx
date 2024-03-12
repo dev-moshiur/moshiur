@@ -40,27 +40,44 @@ export default function Modal({ modalContent, setModalContent }) {
                     Project : <span>{modalContent?.project}</span>
                   </h3>
                 </div>
-                {modalContent?.client  && 
-                <div className="col-md-6">
-                  <h3 className="portfolio-modal-table-text">
-                    <i className="fa-regular fa-user "></i>
-                    Client : <span>{modalContent?.client}</span>
-                  </h3>
-                </div>}
-                {modalContent?.github1  && 
-                <div className="col-md-6">
-                  <h3 className="portfolio-modal-table-text">
-                  <i class="fa-brands fa-github"></i>
-                    Client side code : <a style={{textTransform:'lowercase',fontSize:'13px'}} target="_blank" href={modalContent?.github1}>{modalContent?.github1}</a>
-                  </h3>
-                </div>}
-                {modalContent?.github2  && 
-                <div className="col-md-6">
-                  <h3 className="portfolio-modal-table-text">
-                  <i class="fa-brands fa-github"></i>
-                    Server side code : <a style={{textTransform:'lowercase',fontSize:'13px'}}  target="_blank" href={modalContent?.github2}>{modalContent?.github2}</a>
-                  </h3>
-                </div>}
+                {modalContent?.client && (
+                  <div className="col-md-6">
+                    <h3 className="portfolio-modal-table-text">
+                      <i className="fa-regular fa-user "></i>
+                      Client : <span>{modalContent?.client}</span>
+                    </h3>
+                  </div>
+                )}
+                {modalContent?.github1 && (
+                  <div className="col-md-6">
+                    <h3 className="portfolio-modal-table-text">
+                      <i className="fa-brands fa-github"></i>
+                      Client side code :{" "}
+                      <a
+                        style={{ textTransform: "lowercase", fontSize: "13px" }}
+                        target="_blank"
+                        href={modalContent?.github1}
+                      >
+                        {modalContent?.github1}
+                      </a>
+                    </h3>
+                  </div>
+                )}
+                {modalContent?.github2 && (
+                  <div className="col-md-6">
+                    <h3 className="portfolio-modal-table-text">
+                      <i className="fa-brands fa-github"></i>
+                      Server side code :{" "}
+                      <a
+                        style={{ textTransform: "lowercase", fontSize: "13px" }}
+                        target="_blank"
+                        href={modalContent?.github2}
+                      >
+                        {modalContent?.github2}
+                      </a>
+                    </h3>
+                  </div>
+                )}
                 <div className="col-md-6">
                   <h3 className="portfolio-modal-table-text">
                     <i className="fa-solid fa-code"></i>
@@ -71,7 +88,11 @@ export default function Modal({ modalContent, setModalContent }) {
                   <h3 className="portfolio-modal-table-text">
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                     Preview :{" "}
-                    <a style={{textTransform:'lowercase'}} target="_blank" href={modalContent?.previewLink}>
+                    <a
+                      style={{ textTransform: "lowercase" }}
+                      target="_blank"
+                      href={modalContent?.previewLink}
+                    >
                       {modalContent?.previewName}
                     </a>
                   </h3>
@@ -85,14 +106,15 @@ export default function Modal({ modalContent, setModalContent }) {
               ))}
             </div>
             <div className="h1-modal-img">
-              <Image
-                width={800}
-                height={10000}
-                style={{height:'fit-content'}}
-               
-                src={modalContent?.imgSrc}
-                alt="portfolio"
-              />
+              {modalContent?.imgSrc && (
+                <Image
+                  width={800}
+                  height={10000}
+                  style={{ height: "fit-content" }}
+                  src={modalContent?.imgSrc}
+                  alt="portfolio"
+                />
+              )}
             </div>
           </div>
         </div>

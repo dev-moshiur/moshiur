@@ -12,88 +12,48 @@ export default function ContactForm() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    fetch(`https://send-mail-to-moshiur.onrender.com/sendMail`,{
-      method: "post",
-      headers: { "Content-type": "application/json" },
-      body:JSON.stringify(form.current)
-     })
-     .then(res=>{
-      document.getElementById("myFormOne").reset();
 
-      if (res.status == 200) {
-        toast.success("Message Sent successfully!", {
-          position: "top-right",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-        });
-      
-        
-      } else {
-        toast.error("Ops Message not Sent!", {
-          position: "top-right",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-        });
-  
-        
-      }
-     })
-     .catch((err)=>{
-      toast.error("Ops Message not Sent!", {
-        position: "top-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-      });
-     })
-    // emailjs
-    //   .sendForm(
-    //     "service_z5tlvwn",
-    //     "template_4nbexqj",
-    //     form.current,
-    //     "jKu3D70HB4pHchppU",
-    //   )
-    //   .then(
-    //     (result) => {
-    //       console.log(result);
-    //       toast.success("Message Sent successfully!", {
-    //         position: "top-right",
-    //         autoClose: 5000,
-    //         hideProgressBar: false,
-    //         closeOnClick: true,
-    //         pauseOnHover: true,
-    //         draggable: true,
-    //         progress: undefined,
-    //       });
-    //       document.getElementById("myFormOne").reset();
-    //     },
-    //     (error) => {
-    //       toast.error("Ops Message not Sent!", {
-    //         position: "top-right",
-    //         autoClose: 5000,
-    //         hideProgressBar: false,
-    //         closeOnClick: true,
-    //         pauseOnHover: true,
-    //         draggable: true,
-    //         progress: undefined,
-    //       });
-    //     },
-    //   );
+    emailjs
+      .sendForm(
+        "service_vockszd",
+        "template_4nbexqj",
+        form.current,
+        "jKu3D70HB4pHchppU"
+      )
+      .then(
+        (result) => {
+          toast.success("Message Sent successfully!", {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
+          document.getElementById("myFormOne").reset();
+        },
+        (error) => {
+          toast.error("Ops Message not Sent!", {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
+        }
+      );
   };
 
   return (
-    <form className="contact-form" ref={form} onSubmit={sendEmail}>
+    <form
+      id="myFormOne"
+      className="contact-form"
+      ref={form}
+      onSubmit={sendEmail}
+    >
       <div className="form-input-item mb-60">
         <label
           style={activeInputBoxes.includes("name") ? { color: "#FE7878" } : {}}
@@ -110,7 +70,7 @@ export default function ContactForm() {
           required
           onClick={() =>
             setActiveInputBoxes((pre) =>
-              !pre.includes("name") ? [...pre, "name"] : pre,
+              !pre.includes("name") ? [...pre, "name"] : pre
             )
           }
           style={
@@ -134,7 +94,7 @@ export default function ContactForm() {
           required
           onClick={() =>
             setActiveInputBoxes((pre) =>
-              !pre.includes("gmail") ? [...pre, "gmail"] : pre,
+              !pre.includes("gmail") ? [...pre, "gmail"] : pre
             )
           }
           style={
@@ -158,7 +118,7 @@ export default function ContactForm() {
           } `}
           onClick={() =>
             setActiveInputBoxes((pre) =>
-              !pre.includes("message") ? [...pre, "message"] : pre,
+              !pre.includes("message") ? [...pre, "message"] : pre
             )
           }
           style={

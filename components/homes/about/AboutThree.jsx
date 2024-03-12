@@ -1,13 +1,9 @@
-
-
 import { items } from "@/data/jobFeatures";
-
 
 import { bioData } from "@/data/bioData";
 import Image from "next/image";
 
 export default function AboutThree() {
-
   return (
     <div className="bostami-page-content-wrap">
       <div className="section-wrapper pl-60 pr-60 pt-60">
@@ -47,8 +43,6 @@ export default function AboutThree() {
           </div>
         </div>
       </div>
-
-      
 
       <div className="footer-copyright text-center pt-25 pb-25">
         <span>
