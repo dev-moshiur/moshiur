@@ -1,7 +1,6 @@
 export const profileInfo = {
   name: "Md Moshiur Rahman",
-  title: "MERN stack developer",
+  title: "Frontend Developer(Nextjs,Nuxtjs)",
 
   imageSrcTwo: "/assets/img/parsonal-info/dev-moshiur.png",
-
 };
