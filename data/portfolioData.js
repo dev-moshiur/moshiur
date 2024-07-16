@@ -270,6 +270,46 @@ export const portfolioData = [
       `I have made it converting html to nextjs`,
     ],
   },
+  {
+    id: 3,
+    class: "isotop-item logo mockup",
+    bgClass: "bg-catkrill",
+    imgSrc: "/assets/img/work/luxride.png",
+    subtitle: "Transport and Car Hire Nextjs Template",
+    title: "Luxride Next",
+    target: "#portfolio-1",
+    category: ["Client"],
+    project: "Themeforest Based Project",
+    languages: ["Nextjs 14+", "Tailwind css"],
+    client: "IB-Themes",
+    previewLink: "https://viatour.vercel.app/",
+    previewName: "viatour.vercel.app",
+    desc: [
+      `Luxride is the most complete template for chauffeur or limousine service. It has been designed on the requirements of people interested in building chauffeur like uber, blacklane, sixt, or careem…Luxride has included 10 Home Page, 04 Fleet List pages, Fleet Single pages, Booking Pages, Services Pages, Dashboard Pages, and more layouts`,
+
+      `I have made it converting html to nextjs`,
+    ],
+  },
+  {
+    id: 3,
+    class: "isotop-item logo mockup",
+    bgClass: "bg-catkrill",
+    imgSrc: "/assets/img/work/uomo.png",
+    subtitle: "eCommerce React Nextjs Template",
+    title: "Viatour Next",
+    target: "#portfolio-1",
+    category: ["Client"],
+    project: "Themeforest Based Project",
+    languages: ["Nextjs 14+", "Tailwind css"],
+    client: "IB-Themes",
+    previewLink: "https://viatour.vercel.app/",
+    previewName: "viatour.vercel.app",
+    desc: [
+      ` Modern & Multipurpose eCommerce React NextJs Template you can create templates for fashion & clothing, electronics & computers, food & Grocery, home & furniture, sports & outdoors, glasses, medical, cosmetics & beauty, bikes, wine, car parts, watches, jewellery, baby store, home tools, single products`,
+
+      `I have made it converting html to nextjs`,
+    ],
+  },
 ];
 
 export const filterButtons = [

@@ -1,6 +1,7 @@
 import { ToastContainer } from "react-toastify";
 import "../public/main.scss";
-
+import HeaderFour from "@/components/homes/headers/HeaderFour";
+import Preloader from "@/components/homes/Preloader";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -22,7 +23,10 @@ export default function RootLayout({ children }) {
           draggable
           pauseOnHover
         />
-        {children}
+        <Preloader />
+        <div className="page-wrapper home-3">
+          <HeaderFour /> {children}
+        </div>
       </body>
     </html>
   );
