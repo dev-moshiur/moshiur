@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Menu from "../menus/Menu";
-import { menuItems } from "@/data/menu";
+import { menuItemsMobile } from "@/data/menu";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -93,7 +93,7 @@ export default function HeaderFour() {
 
         <div className="mobile-menu-wrap">
           <div className={`mobile-menu mobile_menu_3 ${menuOpen && "active"} `}>
-            <Menu setMenuOpen={setMenuOpen} data={menuItems} />
+            <Menu setMenuOpen={setMenuOpen} data={menuItemsMobile} />
           </div>
         </div>
       </div>

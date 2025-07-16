@@ -7,7 +7,7 @@ import React from "react";
 
 export default function ResumeThree() {
   return (
-    <div className="bostami-page-content-wrap">
+    <div className="bostami-page-content-wrap" id="resume">
       <div className="section-wrapper pl-60 pr-60 pt-60">
         <div className="bostami-page-title-wrap mb-15">
           <h2 className="page-title">resume</h2>
