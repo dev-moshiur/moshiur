@@ -3,20 +3,80 @@ export const portfolioData = [
     id: 1,
     class: "isotop-item logo",
     bgClass: "bg-prink",
+    imgSrc: "/assets/img/work/resonance.png",
+    subtitle: "Nextjs & Reactjs Multipurpose Template",
+    title: "Resonance - Multipurpose Creative React + NextJs Template",
+    target: "#portfolio-1",
+    category: ["Client,Nextjs", "Reactjs"],
+    project: "Themeforest Based Project",
+    languages: ["Nextjs", "Bootstrap 5", "SASS"],
+    client: "IB-Themes",
+    previewLink: "https://resonance-next-app.vercel.app/",
+    previewName: "resonance-next-app.vercel.app",
+    desc: [
+      <>
+        <p>
+          <strong>Resonance</strong> is a modern, flexible
+          <strong>React + Next.js</strong> template for creative websites. It
+          supports
+          <strong>one-page</strong> and <strong>multi-page</strong> layouts,
+          built with
+          <strong>Bootstrap 5</strong>. Choose from{" "}
+          <strong>10+ design styles</strong>, dark/light modes, and 37 intro
+          sections. Perfect for portfolios, agencies, or startups. Clean code,
+          smooth animations, and SEO-ready.
+        </p>
+      </>,
+    ],
+  },
+  {
+    id: 1,
+    class: "isotop-item logo",
+    bgClass: "bg-prink",
+    imgSrc: "/assets/img/work/sandbox-next.png",
+    subtitle: "Reactjs & Nextjs Multipurpose Template",
+    title: "Sandbox - Multipurpose Creative Reactjs & NextJs Template",
+    target: "#portfolio-1",
+    category: ["Client,Nextjs", "Reactjs"],
+    project: "Themeforest Based Project",
+    languages: ["Nextjs", "Tailwind", "Css"],
+    client: "IB-Themes",
+    previewLink: "https://sandbox-tailwind-nextjs.vercel.app/",
+    previewName: "sandbox-tailwind-nextjs.vercel.app",
+    desc: [
+      <>
+        <p>
+          <strong>Sandbox</strong> is a modern, flexible
+          <strong>React + Next.js</strong> template for creative websites. It
+          supports
+          <strong>one-page</strong> and <strong>multi-page</strong> layouts,
+          built with
+          <strong>Tailwind Css</strong>. Choose from{" "}
+          <strong>35+ design styles</strong>, dark/light modes, and 37 intro
+          sections. Perfect for portfolios, agencies, or startups. Clean code,
+          smooth animations, and SEO-ready.
+        </p>
+      </>,
+    ],
+  },
+  {
+    id: 1,
+    class: "isotop-item logo",
+    bgClass: "bg-prink",
     imgSrc: "/assets/img/work/educrat-next.png",
     subtitle: "Nextjs LMS Template",
     title: "Educrat Next",
     target: "#portfolio-1",
-    category: ["Client"],
+    category: ["Client,Nextjs"],
     project: "Themeforest Based Project",
-    languages: ["Nextjs", "Bootstrap 4", "SASS"],
+    languages: ["Nextjs", "Bootstrap 5", "SASS"],
     client: "IB-Themes",
     previewLink: "https://educrat-next.vercel.app/",
     previewName: "educrat-next.vercel.app",
     desc: [
       <>
         It is a themeforest based project . I have build it in{" "}
-        <strong>nextjs 13.4</strong> version.I used <strong>Bootstrap 5</strong>{" "}
+        <strong>nextjs 15+</strong> version.I used <strong>Bootstrap 5</strong>{" "}
         and sass to make a perfect design. for slider , I have used{" "}
         <strong>react swiper</strong> here. For animation, I have used{" "}
         <strong>GSAP , AOS</strong> etc . I have used{" "}
@@ -51,7 +111,7 @@ export const portfolioData = [
   //   desc: [
   //     <>
   //       It is a themeforest based project . I have build it in{" "}
-  //       <strong>nextjs 13.4</strong> version.I used <strong>Bootstrap 5</strong>{" "}
+  //       <strong>nextjs 15+</strong> version.I used <strong>Bootstrap 5</strong>{" "}
   //       and sass to make a perfect design. for slider , I have used{" "}
   //       <strong>react swiper</strong> here. For animation, I have used{" "}
   //       <strong>GSAP , AOS</strong> etc . I have used{" "}
@@ -68,40 +128,40 @@ export const portfolioData = [
   //     </>,
   //   ],
   // },
-  {
-    id: 4,
-    class: "isotop-item mockup",
-    bgClass: "bg-prink",
-    imgSrc: "/assets/img/work/ksc.png",
-    subtitle: "A result publishing web app",
-    title: "KSC Result Publisher",
-    target: "#portfolio-1",
-    category: ["Practice"],
-    project: "website",
-    languages: ["Reactjs", "Redux Toolkit", "SASS"],
-    transition: "3s",
-    github1: "https://github.com/dev-moshiur/ksc-result-publisher",
-    github2: "https://github.com/dev-moshiur/ksc-result-publisher-api",
+  // {
+  //   id: 4,
+  //   class: "isotop-item mockup",
+  //   bgClass: "bg-prink",
+  //   imgSrc: "/assets/img/work/ksc.png",
+  //   subtitle: "A result publishing web app",
+  //   title: "KSC Result Publisher",
+  //   target: "#portfolio-1",
+  //   category: ["Practice"],
+  //   project: "website",
+  //   languages: ["Reactjs", "Redux Toolkit", "SASS"],
+  //   transition: "3s",
+  //   github1: "https://github.com/dev-moshiur/ksc-result-publisher",
+  //   github2: "https://github.com/dev-moshiur/ksc-result-publisher-api",
 
-    previewLink: "https://ksc-result-publisher.vercel.app/",
-    previewName: "ksc-result-publisher.vercel.app",
-    desc: [
-      <>
-        I created this website including Home, FAQ's, Contact , Admin Page . The
-        home page has Navbar, A real stick Footer . Users can search
-        result,filter result and download PDF result sheets.Admin can publish
-        result filling forms. Results are generated according to the{" "}
-        <strong>standard academic grading system of Bangladesh.</strong>
-      </>,
-      <>
-        Used Technologies :{" "}
-        <strong>
-          {" "}
-          React.js ,CSS(SASS), Redux Toolkit, Expressjs ,MongoDB(Mongoose)
-        </strong>
-      </>,
-    ],
-  },
+  //   previewLink: "https://ksc-result-publisher.vercel.app/",
+  //   previewName: "ksc-result-publisher.vercel.app",
+  //   desc: [
+  //     <>
+  //       I created this website including Home, FAQ's, Contact , Admin Page . The
+  //       home page has Navbar, A real stick Footer . Users can search
+  //       result,filter result and download PDF result sheets.Admin can publish
+  //       result filling forms. Results are generated according to the{" "}
+  //       <strong>standard academic grading system of Bangladesh.</strong>
+  //     </>,
+  //     <>
+  //       Used Technologies :{" "}
+  //       <strong>
+  //         {" "}
+  //         React.js ,CSS(SASS), Redux Toolkit, Expressjs ,MongoDB(Mongoose)
+  //       </strong>
+  //     </>,
+  //   ],
+  // },
   {
     id: 2,
     class: "isotop-item design mockup",
@@ -135,28 +195,28 @@ export const portfolioData = [
       corporis omnis doloremque soluta inventore dolorum consequuntur.`,
     ],
   },
-  {
-    id: 5,
-    class: "isotop-item logo mockup",
-    bgClass: "bg-catkrill",
-    imgSrc: "/assets/img/work/clone.png",
-    subtitle: "A cloned landing page",
-    title: "UI Practice",
-    target: "#portfolio-1",
-    category: ["Practice"],
-    project: "website",
-    languages: ["Reactjs", "SASS"],
-    client: "Envato",
-    github1: "https://github.com/dev-moshiur/clone",
-    previewLink: "https://clone-beige.vercel.app/",
-    previewName: "clone-beige.vercel.app",
-    desc: [
-      <>
-        I have convert a design to <strong>reactjs</strong> code to practice UI
-        design. I used <strong>SASS</strong> for style
-      </>,
-    ],
-  },
+  // {
+  //   id: 5,
+  //   class: "isotop-item logo mockup",
+  //   bgClass: "bg-catkrill",
+  //   imgSrc: "/assets/img/work/clone.png",
+  //   subtitle: "A cloned landing page",
+  //   title: "UI Practice",
+  //   target: "#portfolio-1",
+  //   category: ["Practice"],
+  //   project: "website",
+  //   languages: ["Reactjs", "SASS"],
+  //   client: "Envato",
+  //   github1: "https://github.com/dev-moshiur/clone",
+  //   previewLink: "https://clone-beige.vercel.app/",
+  //   previewName: "clone-beige.vercel.app",
+  //   desc: [
+  //     <>
+  //       I have convert a design to <strong>reactjs</strong> code to practice UI
+  //       design. I used <strong>SASS</strong> for style
+  //     </>,
+  //   ],
+  // },
   {
     id: 3,
     class: "isotop-item logo mockup",
@@ -198,7 +258,7 @@ export const portfolioData = [
     subtitle: "Multipurpas themeforest template",
     title: "Sandbox Nuxt",
     target: "#portfolio-1",
-    category: ["Client"],
+    category: ["Client", "Nuxtjs"],
     project: "Themeforest Based Project",
     languages: ["Vue3", "Nuxtjs", "Bootstrap5", "Sass"],
     client: "IB-Themes",
@@ -218,9 +278,9 @@ export const portfolioData = [
     subtitle: "Portfolio Template",
     title: "Frisk Next",
     target: "#portfolio-1",
-    category: ["Client"],
+    category: ["Client", "Nextjs"],
     project: "Themeforest Based Project",
-    languages: ["Nextjs 14+", "Bootstrap5", "Sass"],
+    languages: ["Nextjs 15+", "Bootstrap5", "Sass"],
     client: "IB-Themes",
     previewLink: "https://frisk-nextjs.vercel.app/",
     previewName: "frisk-nextjs.vercel.app",
@@ -238,9 +298,9 @@ export const portfolioData = [
     subtitle: "NFT Marketplace NextJS Template",
     title: "Xhibiter Next",
     target: "#portfolio-1",
-    category: ["Client"],
+    category: ["Client", "Nextjs"],
     project: "Themeforest Based Project",
-    languages: ["Nextjs 14+", "Tailwind css"],
+    languages: ["Nextjs 15+", "Tailwind css"],
     client: "IB-Themes",
     previewLink: "https://xhibiter-next.vercel.app/",
     previewName: "xhibiter-next.vercel.app",
@@ -258,9 +318,9 @@ export const portfolioData = [
     subtitle: "Travel & Tour Agency NextJs Template",
     title: "Viatour Next",
     target: "#portfolio-1",
-    category: ["Client"],
+    category: ["Client", "Nextjs"],
     project: "Themeforest Based Project",
-    languages: ["Nextjs 14+", "Tailwind css"],
+    languages: ["Nextjs 15+", "Bootstrap 5"],
     client: "IB-Themes",
     previewLink: "https://viatour.vercel.app/",
     previewName: "viatour.vercel.app",
@@ -278,9 +338,9 @@ export const portfolioData = [
     subtitle: "Transport and Car Hire Nextjs Template",
     title: "Luxride Next",
     target: "#portfolio-1",
-    category: ["Client"],
+    category: ["Client", "Nextjs"],
     project: "Themeforest Based Project",
-    languages: ["Nextjs 14+", "Tailwind css"],
+    languages: ["Nextjs 15+", "Bootstrap 5"],
     client: "IB-Themes",
     previewLink: "https://viatour.vercel.app/",
     previewName: "viatour.vercel.app",
@@ -296,11 +356,11 @@ export const portfolioData = [
     bgClass: "bg-catkrill",
     imgSrc: "/assets/img/work/uomo.png",
     subtitle: "eCommerce React Nextjs Template",
-    title: "Viatour Next",
+    title: "Uomo Next",
     target: "#portfolio-1",
-    category: ["Client"],
+    category: ["Client", , "Nextjs"],
     project: "Themeforest Based Project",
-    languages: ["Nextjs 14+", "Tailwind css"],
+    languages: ["Nextjs 15+", "Bootstrap 5"],
     client: "IB-Themes",
     previewLink: "https://viatour.vercel.app/",
     previewName: "viatour.vercel.app",
@@ -320,11 +380,15 @@ export const filterButtons = [
   },
   {
     id: 2,
-    text: "Client",
+    text: "Nextjs",
   },
   {
     id: 3,
-    text: "Practice",
+    text: "Reactjs",
+  },
+  {
+    id: 4,
+    text: "Nuxtjs",
   },
 ];
 

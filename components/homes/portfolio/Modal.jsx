@@ -1,12 +1,33 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 export default function Modal({ modalContent, setModalContent }) {
+  const parentRef = useRef(null);
+  const childRef = useRef(null);
+
+  useEffect(() => {
+    const handleClick = (event) => {
+      if (
+        parentRef.current &&
+        parentRef.current.contains(event.target) && // clicked inside parent
+        childRef.current &&
+        !childRef.current.contains(event.target) // but NOT inside child
+      ) {
+        setModalContent();
+      }
+    };
+
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, []);
+
   return (
     <div
       className={`modal portfolio-modal-box fade ${
         modalContent ? "show" : ""
       } `}
+      ref={parentRef}
       id="portfolio-1"
       tabindex="-1"
       role="dialog"
@@ -16,7 +37,11 @@ export default function Modal({ modalContent, setModalContent }) {
         visibility: `${modalContent ? "visible" : "hidden"}`,
       }}
     >
-      <div className="modal-dialog modal-dialog-centered" role="document">
+      <div
+        className="modal-dialog modal-dialog-centered"
+        ref={childRef}
+        role="document"
+      >
         <div className="modal-content">
           <div className="modal-header">
             <button

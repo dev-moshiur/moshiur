@@ -2,39 +2,26 @@ export const items = [
   {
     id: 1,
     icon: "/assets/img/webdev.svg",
-    title: "Web Development",
-    description:
-      `I am skilled in building the frontend with React and Next.js, utilizing CSS, Sass, and Bootstrap to create responsive user interfaces. On the backend, I excel in Node.js, Express.js, and MongoDB with Mongoose to develop scalable server-side solutions`,
+    title: "Frontend Development",
+    description: `I build fast, interactive, and SEO-friendly frontend applications using modern frameworks like Next.js (React) and Nuxt.js (Vue). My focus is on responsive design, performance, and accessibility to deliver seamless user experiences.`,
     bg: "bg-prink",
   },
-  // {
-  //   id: 1,
-  //   icon: "/assets/img/design.svg",
-  //   title: "Ui/Ux Design",
-  //   description:
-  //     "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.",
-  //   bg: "bg-prink",
-  // },
   {
     id: 2,
+    icon: "/assets/img/management.svg",
+    title: "Backend Development",
+    description: `I develop secure and scalable backend systems using Express.js. From building RESTful APIs to handling authentication and working with MongoDB (via Mongoose), I ensure a robust server-side foundation for any application.`,
+    bg: "bg-prink",
+  },
+  {
+    id: 3,
     icon: "/assets/img/app-development.svg",
-    title: "Mobile App Development",
-    description:
-      `I am an experienced and skilled mobile app developer with a specialization in React Native. With react native i build high-quality cross-platform applications that run smoothly on both iOS and Android devices
-
-      `,
+    title: "SEO & Performance Optimization",
+    description: `Using Next.js and Nuxt.js, I implement best practices for SEO and web performance, including SSR/SSG, dynamic routing, meta management, and core web vitals optimization to maximize visibility and speed.`,
     bg: "bg-catkrill",
   },
-  // {
-  //   id: 3,
-  //   icon: "/assets/img/photograph.svg",
-  //   title: "Photography",
-  //   description:
-  //     "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.",
-  //   bg: "bg-catkrill",
-  // },
- 
 ];
+
 export const itemsTwo = [
   {
     id: 1,

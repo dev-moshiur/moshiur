@@ -1,6 +1,5 @@
-import Preloader from "@/components/homes/Preloader";
 import AboutThree from "@/components/homes/about/AboutThree";
-import HeaderFour from "@/components/homes/headers/HeaderFour";
+
 import HeaderThree from "@/components/homes/headers/HeaderThree";
 import PersonalInfoThree from "@/components/homes/personalInfo/PersonalInfoThree";
 import React from "react";
